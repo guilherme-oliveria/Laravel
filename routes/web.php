@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/hellou', function () {
-    return view('OLHA POH');
-});
+Route::resource('video','VideoController');
